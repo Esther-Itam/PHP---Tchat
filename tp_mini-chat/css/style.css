@@ -1,0 +1,188 @@
+
+body{
+    background-color: rgba(236, 205, 27, 0.363) ;
+
+
+}
+
+header{
+    background-color: rgb(46, 35, 146) ; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav div{
+    margin-left:350px;
+  
+}
+
+nav img{
+    margin-left: 50px;
+    width:150px;
+}
+
+nav h1{
+    color:white;
+    font-family: 'Modak', cursive;
+    font-size: 70px;
+    display:inline-block;
+    position: absolute;
+    bottom: 5px;
+    right:850px;
+}
+
+nav{
+    height:120px;
+}
+
+.msgarea{
+    text-align: justify;
+    border: 2px rgb(46, 35, 146);
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+    width:80%;
+    height:630px;
+    color: rgba(46, 35, 146, 0.493);
+    margin-left:10px;
+    margin-top:10px;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 1px 5px 5px black;
+    border-radius: 5px;
+}
+
+.msgarea h1{
+    padding:10px;
+}
+
+.msgarea .chat{
+    overflow: auto;
+    padding: 20px;
+    height:500px;
+    text-align: justify;
+    color: rgb(46, 35, 146);
+    background: right / contain no-repeat url("../images/cat2.png");
+    border: 2px black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.chat .msg{
+    border-radius: 60px 60px 60px 60px;    
+    background-color: rgba(46, 35, 146, 0.322);
+    width:500px;
+    box-shadow: 1px 5px 5px black;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+.chat .p1{
+    font-size: 17px;
+    font-style: italic;
+    color:black;
+
+}
+
+.chat .p2{
+    font-size: 17px;
+    font-style: italic;
+    color:black;
+
+}
+
+.chat .p3{
+    font-size: 11px;
+    font-style: italic;
+    color:grey;
+}
+
+
+
+
+
+.usersarea{
+    text-align: justify;
+    border: 2px black;
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left:20px;
+    margin-top:10px;
+    left:80%;
+    width:18%;
+    height:630px;
+    color: white;
+    box-shadow: 1px 5px 5px black;
+    background-color: rgb(46, 35, 146) ; 
+    border-radius: 5px;
+
+}
+
+.usersarea h1{
+    padding-left:30%;
+    
+}
+
+.usersarea p{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+
+
+footer{
+    background-color: rgb(46, 35, 146, 0.842); 
+    height:200px;
+    margin: 0;
+    padding: 10px;
+    position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+footer form{
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+input{
+    border-radius: 5px;
+    color:rgb(46, 35, 146);
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    box-shadow: 1px 5px 5px black;
+    margin-bottom: 10px;
+
+}
+
+
+
+textarea{
+    border-radius: 5px;
+    color:rgb(46, 35, 146);
+    font-size: 17px;
+    box-shadow: 1px 5px 5px black;
+    margin-bottom: 7px;
+
+}
+
+
+button{
+    background-color: rgb(46, 35, 146, 0.842); 
+    padding:7px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 5px 5px black;
+
+
+}
